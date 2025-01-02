@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+}
+.h1 {
+    background-color: #a8e0f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+
+.banner {
+    background-color: #a8e0f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.banner h1 {
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-shadow: 1px 1px 2px #000;
+    margin: 0;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #008c9e;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #008c9e;
+    background-color: #fff;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.nav-buttons a:hover {
+    background-color: #e0f7fa;
+    border-color: #008c9e;
+    color: #008c9e;
+}
+
+.nav-buttons a:active {
+    background-color: #008c9e;
+    color: #fff;
+}
+
+
+.ocean-pollution-banner {
+    position: relative;
+    height: 100vh;
+    background: url('background.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: #fff;
+    max-width: 900px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.image-container {
+
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.he-h1 {
+    color: #a8e0f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+.image-container {
+    flex: 0 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #5eb4c2; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-title {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-contact a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
